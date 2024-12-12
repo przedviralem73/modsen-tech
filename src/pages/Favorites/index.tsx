@@ -116,7 +116,7 @@ const Favorites: React.FC = () => {
             <h3 className="favorites__content--sub-title">Saved by you</h3>
             Your favorites list
           </div>
-          {!loading && (
+          {!loading && currentArtworks.length > 0 && (
             <div className="favorites__sort">
               <label htmlFor="sort">Sort by:</label>
               <select
