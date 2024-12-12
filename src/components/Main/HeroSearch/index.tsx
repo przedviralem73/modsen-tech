@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useCallback } from 'react';
 import './style.css';
 import search from '../../../assets/Search/search.svg';
 import { useNavigate } from 'react-router-dom';

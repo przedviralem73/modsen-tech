@@ -33,6 +33,13 @@
   align-items: center;
 }
 
+.other-gallery__error {
+  color: red;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  font-size: 24px;
+}
+
 @media (max-width: 1320px) {
   .other-gallery__grid {
     grid-template-columns: repeat(2, 416px);
@@ -42,5 +49,21 @@
 @media (max-width: 870px) {
   .other-gallery__grid {
     grid-template-columns: 416px;
+  }
+}
+@media (max-width: 450px) {
+  .other-gallery__grid {
+    grid-template-columns: 360px;
+    justify-content: flex-start;
+    padding: 0;
+  }
+}
+
+@media (max-width: 410px) {
+  .other-gallery__grid {
+    grid-template-columns: 320px;
+  }
+  .other-card__info {
+    width: 150px;
   }
 }

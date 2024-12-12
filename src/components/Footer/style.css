@@ -1,12 +1,18 @@
-.footer{
-    background: #fff;
+.footer {
+  background: #fff;
 }
 
-.footer__container{
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 30px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.footer__container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 450px) {
+  .footer__container {
+    padding: 30px 10px;
+  }
 }

@@ -93,3 +93,9 @@
 .hero-search__result-item strong {
   font-weight: bold;
 }
+
+@media (max-width: 580px) {
+  .hero-search__title {
+    font-size: 58px;
+  }
+}

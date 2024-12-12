@@ -84,7 +84,9 @@
   transition: background-image 0.3s ease;
 }
 
-.other-card__bookmark:hover {
-  background-image: url('../../../../assets/Card/bookmark-active.svg');
-  transition: background-image 0.3s ease;
+@media (hover: hover) and (pointer: fine) {
+  .other-card__bookmark:hover {
+    background-image: url('../../../../assets/Card/bookmark-active.svg');
+    transition: background-image 0.3s ease;
+  }
 }

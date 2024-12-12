@@ -61,9 +61,11 @@
   transition: background-image 0.3s ease;
 }
 
-.artwork-card__bookmark:hover {
-  background-image: url('../../assets/ArtWorkCard/bookmark-active.svg');
-  transition: background-image 0.3s ease;
+@media (hover: hover) and (pointer: fine) {
+  .artwork-card__bookmark:hover {
+    background-image: url('../../assets/ArtWorkCard/bookmark-active.svg');
+    transition: background-image 0.3s ease;
+  }
 }
 
 .artwork-card__all-info-li {
@@ -182,5 +184,13 @@
   }
   .artwork-card__status {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  .artwork-card__image img {
+    width: 340px;
+    height: 500px;
+    object-fit: cover;
   }
 }

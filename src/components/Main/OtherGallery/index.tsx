@@ -40,7 +40,7 @@ const OtherGallery: React.FC = () => {
   }, []);
 
   if (error) {
-    return <div>{error}</div>;
+    return <div className="other-gallery__error">{error}</div>;
   }
 
   const handleCardClick = (id: number) => {

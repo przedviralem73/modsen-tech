@@ -44,7 +44,7 @@ const Gallery: React.FC = () => {
   }, []);
 
   if (error) {
-    return <div>{error}</div>;
+    return <div className="gallery__error">{error}</div>;
   }
 
   const startIndex = (currentPage - 1) * cardsPerPage;

@@ -116,3 +116,21 @@
     grid-template-columns: 416px;
   }
 }
+
+@media (max-width: 450px) {
+  .favorites__artwork-grid {
+    grid-template-columns: 360px;
+    justify-content: flex-start;
+    padding: 0;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 410px) {
+  .favorites__artwork-grid {
+    grid-template-columns: 320px;
+  }
+  .other-card__info {
+    width: 150px;
+  }
+}
