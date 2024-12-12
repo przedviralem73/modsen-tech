@@ -92,6 +92,16 @@
   background: #f17900;
   transition: all 0.3s ease;
 }
+
+@media (hover: hover) and (pointer: fine) {
+  .gallery__pagination-li:hover {
+    color: #fff;
+    font-weight: 600;
+    background: #f17900;
+    transition: all 0.3s ease;
+  }
+}
+
 .gallery__pagination-li.disabled {
   display: none;
 }
