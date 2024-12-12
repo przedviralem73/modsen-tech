@@ -11,7 +11,7 @@ const Header: React.FC = () => {
     <header className="header">
       <section className="header__container">
         <div className="header__logo">
-          <a href="/" className="header__logo-link">
+          <a href="/modsen-tech/" className="header__logo-link">
             <img
               className="header__logo-icon"
               src={headerLogo}
@@ -21,7 +21,7 @@ const Header: React.FC = () => {
         </div>
         <div
           className="header__favorites"
-          onClick={() => navigate('/favorites/')}
+          onClick={() => navigate('/modsen-tech/favorites/')}
         >
           <img className="header__bookmark" src={bookmark} alt="bookmark" />
           <span>Your favorites</span>

@@ -17,7 +17,7 @@ const HeroSearch: React.FC = () => {
   const navigate = useNavigate();
 
   const handleClick = (id: number) => {
-    navigate(`/artwork/${id}`);
+    navigate(`/modsen-tech/artwork/${id}`);
   };
 
   const debounce = (func: (...args: any[]) => void, delay: number) => {

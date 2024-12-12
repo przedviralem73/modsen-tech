@@ -10,7 +10,7 @@ export interface Route {
 }
 
 export const ROUTES: Route[] = [
-  { path: '/', element: Main },
-  { path: '/artwork/:id', element: ArtworkCard },
-  { path: '/favorites/', element: Favorites },
+  { path: '/modsen-tech/', element: Main },
+  { path: '/modsen-tech/artwork/:id', element: ArtworkCard },
+  { path: '/modsen-tech/favorites/', element: Favorites },
 ];

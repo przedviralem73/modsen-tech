@@ -43,12 +43,12 @@ const Favorites: React.FC = () => {
 
   const handleHomeClick = () => {
     window.scrollTo(0, 0);
-    navigate('/');
+    navigate('/modsen-tech/');
   };
 
   const handleCardClick = (id: number) => {
     window.scrollTo(0, 0);
-    navigate(`/artwork/${id}`);
+    navigate(`/modsen-tech/artwork/${id}`);
   };
 
   const handlePageChange = (page: number) => {

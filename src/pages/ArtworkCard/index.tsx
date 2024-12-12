@@ -29,7 +29,7 @@ const ArtworkCard: React.FC = () => {
 
   const handleHomeClick = () => {
     window.scrollTo(0, 0);
-    navigate('/');
+    navigate('/modsen-tech/');
   };
 
   useEffect(() => {

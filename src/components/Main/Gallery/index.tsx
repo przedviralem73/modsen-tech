@@ -67,7 +67,7 @@ const Gallery: React.FC = () => {
 
   const handleCardClick = (id: number) => {
     window.scrollTo(0, 0);
-    navigate(`/artwork/${id}`);
+    navigate(`/modsen-tech/artwork/${id}`);
   };
 
   const totalPages = Math.ceil(artworks.length / cardsPerPage);

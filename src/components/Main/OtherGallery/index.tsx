@@ -45,7 +45,7 @@ const OtherGallery: React.FC = () => {
 
   const handleCardClick = (id: number) => {
     window.scrollTo(0, 0);
-    navigate(`/artwork/${id}`);
+    navigate(`/modsen-tech/artwork/${id}`);
   };
 
   return (
