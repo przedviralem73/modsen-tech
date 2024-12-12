@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/modsen-tech/static/css/main.457035d5.css",
+    "main.js": "/modsen-tech/static/js/main.6ff6aae3.js",
+    "static/media/museum-logo.svg": "/modsen-tech/static/media/museum-logo.7ab5edf03fd6dd7237c36a4b50391596.svg",
+    "static/media/header-logo.svg": "/modsen-tech/static/media/header-logo.7a0bd9dae0a0871be849b3fd9d213210.svg",
+    "static/media/home.svg": "/modsen-tech/static/media/home.96ee17bbb9fb329f74d563a8271295f8.svg",
+    "static/media/modsen-logo.svg": "/modsen-tech/static/media/modsen-logo.3fc985902237f61afd0491a8d0dab3bf.svg",
+    "index.html": "/modsen-tech/index.html",
+    "static/media/bookmark-active.svg": "/modsen-tech/static/media/bookmark-active.63fb62b893942828cfd5.svg",
+    "static/media/bookmark.svg": "/modsen-tech/static/media/bookmark.ff0339d7ed53747f9bd6b3055e8312cc.svg",
+    "static/media/search.svg": "/modsen-tech/static/media/search.1bfdfc3d954023f54fdd260a0178580b.svg",
+    "main.457035d5.css.map": "/modsen-tech/static/css/main.457035d5.css.map",
+    "main.6ff6aae3.js.map": "/modsen-tech/static/js/main.6ff6aae3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.457035d5.css",
+    "static/js/main.6ff6aae3.js"
+  ]
+}
