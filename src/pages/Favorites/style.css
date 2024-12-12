@@ -1,0 +1,118 @@
+.favorites {
+  font-family: 'Lexend Deca', sans-serif;
+  padding: 120px 0px;
+}
+
+.favorites__container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+.favorites__title {
+  font-weight: 700;
+  font-size: 64px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #393939;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 120px;
+}
+
+.favorites__title span {
+  color: #f17900;
+}
+
+.favorites__content--sub-title {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #e0a449;
+  margin: 0;
+}
+
+.favorites__content--title {
+  font-weight: 400;
+  font-size: 32px;
+  margin: 0;
+  color: #393939;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.favorites__artwork-grid {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 416px);
+  gap: 10px;
+  padding: 10px;
+  transform: translateX(0);
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+
+.favorites__sort {
+  text-align: end;
+}
+
+.favorites__sort label {
+  padding-right: 10px;
+}
+
+.favorites__sort select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.favorites__sort select option:hover {
+  border-color: rgba(241, 120, 0, 0.559);
+}
+
+.favorites__sort select:focus {
+  border-color: #555;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.favorites-card__home {
+  text-align: center;
+}
+
+.favorites-card__home-btn {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.favorites__artwork-grid-none {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.favorites__none {
+  font-size: 36px;
+  text-align: center;
+}
+
+@media (max-width: 1320px) {
+  .favorites__artwork-grid {
+    grid-template-columns: repeat(2, 416px);
+  }
+}
+
+@media (max-width: 870px) {
+  .favorites__artwork-grid {
+    grid-template-columns: 416px;
+  }
+}

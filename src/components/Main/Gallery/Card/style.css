@@ -1,0 +1,101 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  padding-bottom: 70px;
+}
+
+.card__content {
+  font-family: 'Lexend Deca', sans-serif;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  bottom: 0px;
+  border: 1px solid #f0f1f1;
+  padding: 17px 24px;
+  width: 100%;
+  background: #fff;
+  max-width: 284.4px;
+  height: 96.4px;
+  justify-content: space-between;
+}
+
+.card__info {
+  max-width: 200px;
+}
+
+.card__title {
+  font-weight: 500;
+  font-size: 17px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 150%;
+  letter-spacing: -0.03em;
+  color: #393939;
+  margin: 0;
+}
+
+.card__author {
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 171%;
+  letter-spacing: -0.01em;
+  color: #e0a449;
+}
+
+.card__status {
+  font-weight: 700;
+  margin-top: 17px;
+  font-size: 15px;
+  line-height: 171%;
+  letter-spacing: -0.01em;
+  color: #393939;
+}
+
+.card__saved {
+  display: flex;
+  align-items: center;
+}
+
+.card__image img {
+  width: 387px;
+  height: 444px;
+  object-fit: cover;
+}
+
+.card__bookmark {
+  display: inline-block;
+  height: 59px;
+  width: 59px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: transparent;
+  background-image: url('../../../../assets/Card/bookmark.svg');
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.card__bookmark-active {
+  display: inline-block;
+  height: 59px;
+  width: 59px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: transparent;
+  background-image: url('../../../../assets/Card/bookmark-active.svg');
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.card__bookmark:hover {
+  background-image: url('../../../../assets/Card/bookmark-active.svg');
+  transition: background-image 0.3s ease;
+}

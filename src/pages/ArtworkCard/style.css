@@ -1,0 +1,186 @@
+.artwork-card {
+  max-width: 1280px;
+  padding: 120px 20px;
+  margin: 0 auto;
+}
+.artwork-card__container {
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.artwork-card__home {
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+.artwork-card__home-btn {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.artwork-card__image {
+  position: relative;
+}
+
+.artwork-card__bookmark {
+  display: inline-block;
+  height: 59px;
+  width: 59px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  margin: 16px;
+  background-image: url('../../assets/Card/bookmark.svg');
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.artwork-card__bookmark-active {
+  display: inline-block;
+  height: 59px;
+  width: 59px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  margin: 16px;
+  background-image: url('../../assets/ArtWorkCard/bookmark-active.svg');
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.artwork-card__bookmark:hover {
+  background-image: url('../../assets/ArtWorkCard/bookmark-active.svg');
+  transition: background-image 0.3s ease;
+}
+
+.artwork-card__all-info-li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.artwork-card__image img {
+  width: 497px;
+  height: 570px;
+  object-fit: cover;
+}
+
+.artwork-card__content {
+  font-family: 'Lexend Deca', sans-serif;
+  display: flex;
+  gap: 172px;
+  flex-direction: column;
+}
+
+.artwork-card__title {
+  font-weight: 400;
+  font-size: 32px;
+  margin: 0;
+  color: #393939;
+}
+
+.artwork-card__author-title {
+  margin: 0;
+  font-weight: 400;
+  margin-top: 20px;
+  font-size: 24px;
+  color: #e0a449;
+}
+
+.artwork-card__year {
+  font-weight: 700;
+  font-size: 16px;
+  color: #393939;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.artwork-card__overview-title {
+  font-weight: 400;
+  font-size: 32px;
+  color: #393939;
+  margin: 0;
+}
+
+.artwork-card__all-info {
+  margin: 0;
+  padding: 0;
+}
+
+.artwork-card__all-info-li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #e0a449;
+}
+
+.artwork-card__all-info-li p {
+  color: #393939;
+  margin: 8px 0;
+}
+
+.artwork-card__status {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  color: #393939;
+}
+
+@media (max-width: 1025px) {
+  .artwork-card__home {
+    text-align: center;
+  }
+  .artwork-card__container {
+    flex-direction: column;
+  }
+  .artwork-card__title {
+    font-size: 35px;
+    text-align: center;
+  }
+  .artwork-card__author-title {
+    font-size: 28px;
+  }
+  .artwork-card__year {
+    font-size: 20px;
+  }
+  .artwork-card__content {
+    gap: 72px;
+  }
+  .artwork-card__overview-title {
+    font-size: 36px;
+  }
+  .artwork-card__all-info-li {
+    font-size: 20px;
+  }
+  .artwork-card__status {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .artwork-card__image img {
+    width: 397px;
+    object-fit: cover;
+  }
+  .artwork-card__all-info-li {
+    font-size: 16px;
+  }
+  .artwork-card__status {
+    font-size: 16px;
+  }
+}

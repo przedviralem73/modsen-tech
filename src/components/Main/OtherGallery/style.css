@@ -1,0 +1,46 @@
+.other-gallery {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 120px;
+}
+
+.other-gallery__title {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: #393939;
+  text-align: center;
+}
+
+.other-gallert__sub-title {
+  font-weight: 400;
+  margin: 0;
+  font-size: 16px;
+  color: #e0a449;
+}
+
+.other-gallery__grid {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 416px);
+  gap: 10px;
+  padding: 10px;
+}
+
+.other-gallery__grid-none {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1320px) {
+  .other-gallery__grid {
+    grid-template-columns: repeat(2, 416px);
+  }
+}
+
+@media (max-width: 870px) {
+  .other-gallery__grid {
+    grid-template-columns: 416px;
+  }
+}
